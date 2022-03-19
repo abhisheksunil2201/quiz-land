@@ -1,0 +1,23 @@
+.answers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color);
+  font-size: 1.2rem;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.answer {
+  background-color: var(--option-color);
+  border-radius: 10px;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.2rem 0;
+}
+.rightAnswer {
+  background-color: var(--success-color);
+}
+.wrongAnswer {
+  background-color: var(--danger-color);
+}
