@@ -2,6 +2,7 @@
 @import url("/CategorySelect/CategorySelect.css");
 @import url("/Rules/Rules.css");
 @import url("/Question/Question.css");
+@import url("/Answers/Answers.css");
 
 :root {
   --cta-color: #63a5ff;
@@ -9,6 +10,8 @@
   --off-black: #1a1a1a;
   --background-color: #0e131f;
   --option-color: #19212c;
+  --success-color: #047854;
+  --danger-color: #ae1c1c;
 }
 
 body {
