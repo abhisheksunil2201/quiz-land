@@ -1,0 +1,30 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categories__cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.categories__cards > a > .card {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--off-black);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.categories__cards > a > .card > img {
+  object-fit: cover;
+}
+.categories__cards > a > .card > p,
+.categories__cards > a > .card > h4 {
+  padding: 0 1rem;
+
+  color: var(--white);
+}
+a {
+  color: var(--white);
+  text-decoration: none;
+}
