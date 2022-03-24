@@ -1,6 +1,6 @@
 # quiz-land
 
-Reducto UI is a component library. It can be used to add components to your web app and make your development process faster.
+Quiz land is a web app in which you can play and test your knowledge in different categories. You can view your score and answers too.
 ## Tech Stack
 - HTML
 - CSS
